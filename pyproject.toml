@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 click = "^8.1.7"
+latex-kelonmyosa = "^0.1.0"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.2.2"

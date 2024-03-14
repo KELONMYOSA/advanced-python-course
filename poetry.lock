@@ -26,6 +26,17 @@ files = [
 ]
 
 [[package]]
+name = "latex-kelonmyosa"
+version = "0.1.0"
+description = "Simple latex tool (HW_2)"
+optional = false
+python-versions = ">=3.11,<4.0"
+files = [
+    {file = "latex_kelonmyosa-0.1.0-py3-none-any.whl", hash = "sha256:70db5e7162a50b726e0b373fff4cd1b42db522b42e57b2737427e207b0f263ef"},
+    {file = "latex_kelonmyosa-0.1.0.tar.gz", hash = "sha256:eb5f1aec56515792b511657b10950641dd2babd8e0b57efa3e4ee46f6ffcc1a8"},
+]
+
+[[package]]
 name = "ruff"
 version = "0.2.2"
 description = "An extremely fast Python linter and code formatter, written in Rust."
@@ -54,4 +65,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "9df047c7efe98cf2208b6aba949e5aa71ca989b9da027a0bf8214736f46d242e"
+content-hash = "f0f771316726a70fda7fc74861a55234a82638d96663946e878f383ee13f4a54"

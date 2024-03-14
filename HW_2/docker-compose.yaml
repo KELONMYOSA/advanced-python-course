@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  pdf-generator:
+    build:
+      context: ./
+      dockerfile: ./artifacts/Dockerfile
+    volumes:
+      - ./artifacts:/app/artifacts
